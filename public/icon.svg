@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B1221" />
+      <stop offset="100%" stop-color="#070B14" />
+    </linearGradient>
+    <linearGradient id="spark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FBBF24" />
+      <stop offset="50%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#D97706" />
+    </linearGradient>
+    <linearGradient id="glass" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.28" />
+      <stop offset="100%" stop-color="#0EA5E9" stop-opacity="0.06" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="108" fill="url(#bg)" />
+  <rect x="28" y="28" width="456" height="456" rx="88" fill="none" stroke="#FFFFFF" stroke-opacity="0.12" stroke-width="4" />
+  <polygon points="256,88 396,172 396,340 256,424 116,340 116,172" fill="url(#glass)" stroke="#38BDF8" stroke-opacity="0.45" stroke-width="6" />
+  <path d="M256 126 L292 220 L386 256 L292 292 L256 386 L220 292 L126 256 L220 220 Z" fill="url(#spark)" />
+  <circle cx="256" cy="256" r="24" fill="#070B14" />
+  <circle cx="256" cy="256" r="10" fill="#FBBF24" />
+</svg>

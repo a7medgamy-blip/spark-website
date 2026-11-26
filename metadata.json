@@ -1,0 +1,8 @@
+{
+  "name": "Jimmy Spark Media",
+  "description": "AI Media Production & Enterprise Software House — Public Showcase and 3-Wing Smart Glass Command HQ",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

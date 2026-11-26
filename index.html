@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>Jimmy Spark Media HQ — AI Media & Enterprise Software House</title>
+    <meta name="description" content="Jimmy Spark Media HQ (Spark Smart Jimmy): AI-powered media production channels, enterprise POS & ERP systems for hospitals, hotels, and restaurants, and WhatsApp/Telegram automation bots." />
+    <meta name="application-name" content="Jimmy Spark Media HQ" />
+    <meta name="theme-color" content="#070B14" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Jimmy Spark Media HQ" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+    <link rel="manifest" href="/manifest.json" />
+    <meta property="og:title" content="Jimmy Spark Media HQ — AI Media & Enterprise Software House" />
+    <meta property="og:description" content="Explore XG Sport, The Untold Vault, Rahik Al-Quran, Cartoon & AI Academy, and enterprise POS & bot solutions." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet" />
+  </head>
+  <body class="antialiased selection:bg-amber-500/30 selection:text-amber-900 dark:selection:text-amber-100">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function () {
+          navigator.serviceWorker.register('/sw.js').catch(function () {});
+        });
+      }
+    </script>
+  </body>
+</html>

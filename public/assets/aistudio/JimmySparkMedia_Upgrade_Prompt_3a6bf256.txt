@@ -1,0 +1,25 @@
+Upgrade the "Jimmy Spark Media" web application with the following enterprise, payment, and mobile app features while preserving all existing Glassmorphism architecture, 3 Glass Wings, 24 AI Employees, Dual-Language (English/Arabic RTL), and Local PC Python Bridge features:
+
+1. MOBILE APP CONVERSION (PWA - PROGRESSIVE WEB APP):
+- Add full PWA support (manifest.json, service worker, app icons, mobile splash screen, and a prominent "Install App on Phone / تثبيت التطبيق على الهاتف" button) so it installs directly on Android/iOS home screens as a standalone native-like app.
+
+2. ADMIN VISIBILITY CONTROLS (SHOW/HIDE CHANNELS FOR VISITORS):
+- In Jimmy's Admin HQ (Wing 1 / Executive Settings), add master toggle switches for each individual channel ("XG Sport", "The Untold Vault", "رحيق القرآن - Rahik Al-Quran", "Cartoon & AI Academy") AND a global master switch: "Show Channels Showcase to Public Visitors".
+- When toggled OFF, public visitors only see the Enterprise Software & Automation Store (POS/Cashier systems for Companies, Hotels, Restaurants, Hospitals, and Telegram/WhatsApp Business Bots), keeping the public storefront 100% focused on B2B commercial sales.
+
+3. REAL CHANNEL LINKS & BOT INTEGRATION PANEL:
+- Add an editable "Channels & Bots Links Manager" in Admin Settings where Jimmy can paste and save direct URLs for YouTube channels, Telegram channels, Telegram Sales Bots, WhatsApp Business links, Facebook, TikTok, and X.
+- Dynamically update all visitor action buttons with these saved links.
+
+4. EGYPTIAN PAYMENT GATEWAY & RECEIPT VERIFICATION SYSTEM (VODAFONE CASH & INSTAPAY):
+- Build a complete Checkout & Order Modal for clients purchasing Bots, POS Systems, or Subscriptions:
+  * Payment Method Selection: Choose between "Vodafone Cash (فودافون كاش)" or "InstaPay (إنستا باي)".
+  * Display Jimmy's editable Vodafone Cash wallet number and InstaPay address (IPA / QR / Phone) configured from Admin Settings, complete with a 1-click "Copy Number / نسخ الرقم" button.
+  * Deposit Receipt Upload (تأكيد الإيداع): Mandatory form fields for Client Name, Client WhatsApp/Telegram contact, Sender Phone/Account, Transaction Reference Number, and an Image Upload input to attach a screenshot of the transfer receipt (with live image preview).
+- Admin Financial Verification Hub (Wing 1 - Finance & Sponsorship Officer):
+  * Displays all incoming client orders with order details, amount, payment method, and a clickable preview of the uploaded transfer receipt image.
+  * One-click "Approve Payment (تأكيد الإيداع)" or "Reject (رفض)" buttons that update the order status to "Confirmed / Paid" and generate a 1-click WhatsApp/Telegram confirmation message button to notify the client immediately.
+
+5. ADMIN CREDENTIALS & PERSISTENCE:
+- Ensure Admin login works with Username: "Jimmy" and Password: "admin11234" (with option to update password inside settings).
+- Save all settings, wallet numbers, channel links, visibility toggles, and submitted orders/receipts cleanly in state/LocalStorage so nothing is lost on refresh.

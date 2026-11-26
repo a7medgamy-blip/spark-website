@@ -1,0 +1,52 @@
+====================================================================
+JIMMY SPARK MEDIA (SPARK SMART JIMMY) - GOOGLE AI STUDIO MASTER PROMPT
+====================================================================
+
+[INSTRUCTIONS FOR MOBILE USE]:
+1. Open Google AI Studio (aistudio.google.com) on your phone.
+2. Replace +20XXXXXXXXXX with your actual mobile number.
+3. Replace [YOUR_ADMIN_PASSWORD] with your desired admin password (e.g., admin11234).
+4. Copy everything below the dashed line and paste it into Google AI Studio (Build / Prompt).
+
+--------------------------------------------------------------------
+
+Build a complete, ultra-realistic, next-generation web application for "Jimmy Spark Media" (Spark Smart Jimmy) using React, Tailwind CSS, Lucide Icons, and modern Glassmorphism UI (translucent frosted glass panels, 3D architectural compound feel, ambient neon/gold accents, Dark/Light mode toggle, and smooth 60fps animations).
+
+1. DUAL-MODE ARCHITECTURE (PUBLIC VISITOR PORTAL + PRIVATE ADMIN HQ):
+- Public Visitor & Subscriber View (Default Landing):
+  * Showcases "Jimmy Spark Media" as a premier AI Media & Enterprise Software House.
+  * Interactive Media Channels Showcase: Visitors can browse, watch previews, and subscribe to Jimmy's channels:
+    1) "XG Sport" (Football match predictions, xG analytics, daily sports news).
+    2) "The Untold Vault" (English historical mysteries, novels & storytelling).
+    3) "رحيق القرآن - Rahik Al-Quran" (Islamic shorts, Quranic verses & Sharia lessons).
+    4) "Cartoon & AI Academy" (Animation & AI educational courses).
+  * Enterprise Solutions & Bots Catalog: Interactive demos and order/inquiry forms for custom POS & Sales Systems (أنظمة مبيعات وكاشير للشركات، الفنادق، المطاعم، والمستشفيات) and Automated Telegram & WhatsApp Business Bots.
+  * Direct Contact & Mobile Integration: Floating WhatsApp/Telegram quick-connect buttons linked to Jimmy's official mobile number: +20XXXXXXXXXX (editable from Admin panel).
+
+- Admin Login & Control (Exclusive to Jimmy):
+  * Clean login modal in the header. Full privileges (View, Add, Edit, Delete channels, manage employees, view client orders, control APIs) are granted ONLY to:
+    - Username: Jimmy
+    - Password: [YOUR_ADMIN_PASSWORD]
+
+2. THE 3 GLASS WINGS & 24 AI EMPLOYEES (ADMIN DASHBOARD):
+Once logged in as Jimmy, unlock the internal Smart Glass Compound divided into 3 Wings with 24 AI Employees working on an 8-hour shift system (editable names, live status: Active/Processing/Standby):
+
+- [WING 1: EXECUTIVE SUITE & CLIENT RELATIONS] (4 Employees):
+  * CEO Office (Jimmy): Master command center, revenue/POS sales analytics, channel growth, and Local PC Server status indicator (Connected/Offline).
+  * Executive Secretary & Reception: Routes visitor inquiries, manages bot leads, and triggers mobile alerts.
+  * Enterprise Sales & Solutions Architect: Manages client orders for Hospital, Hotel, Restaurant, and Company POS/ERP systems.
+  * Quality, Legal & Sharia Compliance Officer: Verifies content accuracy and copyright safety.
+
+- [WING 2: MEDIA CHANNELS & CONTENT FACTORY] (12 Employees):
+  * Dedicated automated production lines for "XG Sport", "The Untold Vault", "رحيق القرآن", and "Cartoon/AI Academy".
+  * Clicking any employee opens their Glass Workstation Modal with functional AI tools: [Trend Scanner], [Script Generator], [Edge-TTS Voice Prep], [Video/Visual Prompt Builder], and [Auto-Publisher for YouTube, Facebook, Reels, TikTok, X, Telegram].
+
+- [WING 3: BOTS ENGINE, POS SYSTEMS & LOCAL PC BRIDGE] (8 Employees):
+  * Telegram & WhatsApp Bot Builder: Configure auto-replies, customer support flows, and sales funnels for clients.
+  * Enterprise POS & Cloud Sales Demo Module: Live interactive POS/Cashier & Hospital/Hotel booking simulator to showcase to clients and manage subscriptions.
+  * Local PC Python Bridge (Home Server Node): API webhook/JSON dispatcher (http://192.168.1.X:8000) designed to send heavy rendering, video processing, and Python/Fmsyson tasks directly to Jimmy's local desktop PC (GTX 1050 Ti).
+
+3. TECHNICAL & MOBILE EXCELLENCE:
+- Language: English primary UI with a 1-click instant toggle to Arabic (عربي / English) with full RTL support.
+- Mobile-First Performance: Ultra-fast, lightweight responsive layout that feels like a native mobile app on smartphones.
+- Persistence & Deployment: Ready for instant deployment on Netlify, with clean modular state (LocalStorage + Supabase REST API ready) so all edits, mobile numbers, channels, and employee shifts persist seamlessly.
